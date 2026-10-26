@@ -1,0 +1,949 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project source="3.8.0" version="1.0">
+  This file is intended to be loaded by Logisim-evolution v3.8.0(https://github.com/logisim-evolution/).
+
+  <lib desc="#Wiring" name="0">
+    <tool name="Pin">
+      <a name="appearance" val="classic"/>
+    </tool>
+  </lib>
+  <lib desc="#Gates" name="1"/>
+  <lib desc="#Plexers" name="2"/>
+  <lib desc="#Arithmetic" name="3"/>
+  <lib desc="#Memory" name="4"/>
+  <lib desc="#I/O" name="5"/>
+  <lib desc="#Base" name="6"/>
+  <main name="Q1_logic4"/>
+  <options>
+    <a name="gateUndefined" val="ignore"/>
+    <a name="simlimit" val="1000"/>
+    <a name="simrand" val="0"/>
+  </options>
+  <mappings/>
+  <toolbar>
+    <tool lib="6" name="Poke Tool"/>
+    <tool lib="6" name="Edit Tool"/>
+    <tool lib="6" name="Wiring Tool"/>
+    <tool lib="6" name="Text Tool"/>
+  </toolbar>
+  <circuit name="Q1_logic4">
+    <a name="appearance" val="logisim_evolution"/>
+    <a name="circuit" val="Q1_logic4"/>
+    <a name="circuitnamedboxfixedsize" val="true"/>
+    <comp lib="0" loc="(150,130)" name="Tunnel">
+      <a name="label" val="b"/>
+    </comp>
+    <comp lib="0" loc="(150,180)" name="Tunnel">
+      <a name="label" val="c"/>
+    </comp>
+    <comp lib="0" loc="(150,230)" name="Tunnel">
+      <a name="label" val="d"/>
+    </comp>
+    <comp lib="0" loc="(150,80)" name="Tunnel">
+      <a name="label" val="a"/>
+    </comp>
+    <comp lib="0" loc="(210,120)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="a"/>
+    </comp>
+    <comp lib="0" loc="(210,140)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="b"/>
+    </comp>
+    <comp lib="0" loc="(210,160)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="c"/>
+    </comp>
+    <comp lib="0" loc="(210,180)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="d"/>
+    </comp>
+    <comp lib="0" loc="(430,150)" name="Pin">
+      <a name="appearance" val="classic"/>
+      <a name="facing" val="west"/>
+      <a name="label" val="out1"/>
+      <a name="output" val="true"/>
+    </comp>
+    <comp lib="0" loc="(610,120)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="a"/>
+    </comp>
+    <comp lib="0" loc="(610,140)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="b"/>
+    </comp>
+    <comp lib="0" loc="(610,160)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="c"/>
+    </comp>
+    <comp lib="0" loc="(610,180)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="d"/>
+    </comp>
+    <comp lib="0" loc="(80,130)" name="Pin">
+      <a name="appearance" val="classic"/>
+      <a name="label" val="b"/>
+    </comp>
+    <comp lib="0" loc="(80,180)" name="Pin">
+      <a name="appearance" val="classic"/>
+      <a name="label" val="c"/>
+    </comp>
+    <comp lib="0" loc="(80,230)" name="Pin">
+      <a name="appearance" val="classic"/>
+      <a name="label" val="d"/>
+    </comp>
+    <comp lib="0" loc="(80,80)" name="Pin">
+      <a name="appearance" val="classic"/>
+      <a name="label" val="a"/>
+    </comp>
+    <comp lib="0" loc="(830,150)" name="Pin">
+      <a name="appearance" val="classic"/>
+      <a name="facing" val="west"/>
+      <a name="label" val="out2"/>
+      <a name="output" val="true"/>
+    </comp>
+    <comp lib="1" loc="(350,150)" name="AND Gate">
+      <a name="inputs" val="4"/>
+      <a name="size" val="70"/>
+    </comp>
+    <comp lib="1" loc="(750,150)" name="OR Gate">
+      <a name="inputs" val="4"/>
+      <a name="size" val="70"/>
+    </comp>
+    <wire from="(210,120)" to="(280,120)"/>
+    <wire from="(210,140)" to="(280,140)"/>
+    <wire from="(210,160)" to="(280,160)"/>
+    <wire from="(210,180)" to="(280,180)"/>
+    <wire from="(350,150)" to="(430,150)"/>
+    <wire from="(610,120)" to="(680,120)"/>
+    <wire from="(610,140)" to="(680,140)"/>
+    <wire from="(610,160)" to="(680,160)"/>
+    <wire from="(610,180)" to="(680,180)"/>
+    <wire from="(750,150)" to="(830,150)"/>
+    <wire from="(80,130)" to="(150,130)"/>
+    <wire from="(80,180)" to="(150,180)"/>
+    <wire from="(80,230)" to="(150,230)"/>
+    <wire from="(80,80)" to="(150,80)"/>
+  </circuit>
+  <circuit name="Q2_mux8">
+    <a name="appearance" val="logisim_evolution"/>
+    <a name="circuit" val="Q2_mux8"/>
+    <a name="circuitnamedboxfixedsize" val="true"/>
+    <comp lib="0" loc="(120,100)" name="Tunnel">
+      <a name="label" val="a"/>
+    </comp>
+    <comp lib="0" loc="(120,145)" name="Tunnel">
+      <a name="label" val="b"/>
+    </comp>
+    <comp lib="0" loc="(120,190)" name="Tunnel">
+      <a name="label" val="c"/>
+    </comp>
+    <comp lib="0" loc="(120,235)" name="Tunnel">
+      <a name="label" val="d"/>
+    </comp>
+    <comp lib="0" loc="(230,100)" name="Pin">
+      <a name="appearance" val="classic"/>
+      <a name="label" val="e"/>
+    </comp>
+    <comp lib="0" loc="(230,145)" name="Pin">
+      <a name="appearance" val="classic"/>
+      <a name="label" val="f"/>
+    </comp>
+    <comp lib="0" loc="(230,190)" name="Pin">
+      <a name="appearance" val="classic"/>
+      <a name="label" val="g"/>
+    </comp>
+    <comp lib="0" loc="(230,235)" name="Pin">
+      <a name="appearance" val="classic"/>
+      <a name="label" val="h"/>
+    </comp>
+    <comp lib="0" loc="(280,100)" name="Tunnel">
+      <a name="label" val="e"/>
+    </comp>
+    <comp lib="0" loc="(280,145)" name="Tunnel">
+      <a name="label" val="f"/>
+    </comp>
+    <comp lib="0" loc="(280,190)" name="Tunnel">
+      <a name="label" val="g"/>
+    </comp>
+    <comp lib="0" loc="(280,235)" name="Tunnel">
+      <a name="label" val="h"/>
+    </comp>
+    <comp lib="0" loc="(410,160)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="b"/>
+      <a name="labelfont" val="SansSerif plain 12"/>
+    </comp>
+    <comp lib="0" loc="(410,180)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="d"/>
+      <a name="labelfont" val="SansSerif plain 12"/>
+    </comp>
+    <comp lib="0" loc="(410,200)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="f"/>
+      <a name="labelfont" val="SansSerif plain 12"/>
+    </comp>
+    <comp lib="0" loc="(410,220)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="h"/>
+      <a name="labelfont" val="SansSerif plain 12"/>
+    </comp>
+    <comp lib="0" loc="(440,300)" name="Pin">
+      <a name="appearance" val="classic"/>
+      <a name="label" val="sel"/>
+      <a name="width" val="3"/>
+    </comp>
+    <comp lib="0" loc="(460,150)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="a"/>
+      <a name="labelfont" val="SansSerif plain 12"/>
+    </comp>
+    <comp lib="0" loc="(460,170)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="c"/>
+      <a name="labelfont" val="SansSerif plain 12"/>
+    </comp>
+    <comp lib="0" loc="(460,190)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="e"/>
+      <a name="labelfont" val="SansSerif plain 12"/>
+    </comp>
+    <comp lib="0" loc="(460,210)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="g"/>
+      <a name="labelfont" val="SansSerif plain 12"/>
+    </comp>
+    <comp lib="0" loc="(670,190)" name="Pin">
+      <a name="appearance" val="classic"/>
+      <a name="facing" val="west"/>
+      <a name="label" val="data"/>
+      <a name="output" val="true"/>
+    </comp>
+    <comp lib="0" loc="(70,100)" name="Pin">
+      <a name="appearance" val="classic"/>
+      <a name="label" val="a"/>
+    </comp>
+    <comp lib="0" loc="(70,145)" name="Pin">
+      <a name="appearance" val="classic"/>
+      <a name="label" val="b"/>
+    </comp>
+    <comp lib="0" loc="(70,190)" name="Pin">
+      <a name="appearance" val="classic"/>
+      <a name="label" val="c"/>
+    </comp>
+    <comp lib="0" loc="(70,235)" name="Pin">
+      <a name="appearance" val="classic"/>
+      <a name="label" val="d"/>
+    </comp>
+    <comp lib="2" loc="(550,190)" name="Multiplexer">
+      <a name="select" val="3"/>
+    </comp>
+    <wire from="(230,100)" to="(280,100)"/>
+    <wire from="(230,145)" to="(280,145)"/>
+    <wire from="(230,190)" to="(280,190)"/>
+    <wire from="(230,235)" to="(280,235)"/>
+    <wire from="(410,160)" to="(510,160)"/>
+    <wire from="(410,180)" to="(510,180)"/>
+    <wire from="(410,200)" to="(510,200)"/>
+    <wire from="(410,220)" to="(510,220)"/>
+    <wire from="(440,300)" to="(530,300)"/>
+    <wire from="(460,150)" to="(510,150)"/>
+    <wire from="(460,170)" to="(510,170)"/>
+    <wire from="(460,190)" to="(510,190)"/>
+    <wire from="(460,210)" to="(510,210)"/>
+    <wire from="(530,230)" to="(530,300)"/>
+    <wire from="(550,190)" to="(670,190)"/>
+    <wire from="(70,100)" to="(120,100)"/>
+    <wire from="(70,145)" to="(120,145)"/>
+    <wire from="(70,190)" to="(120,190)"/>
+    <wire from="(70,235)" to="(120,235)"/>
+  </circuit>
+  <circuit name="Q3_letters7seg">
+    <a name="appearance" val="logisim_evolution"/>
+    <a name="circuit" val="Q3_letters7seg"/>
+    <a name="circuitnamedboxfixedsize" val="true"/>
+    <comp lib="0" loc="(390,140)" name="Constant">
+      <a name="value" val="0x0"/>
+      <a name="width" val="8"/>
+    </comp>
+    <comp lib="0" loc="(420,320)" name="Pin">
+      <a name="appearance" val="classic"/>
+      <a name="label" val="en"/>
+    </comp>
+    <comp lib="0" loc="(600,110)" name="Pin">
+      <a name="appearance" val="classic"/>
+      <a name="facing" val="west"/>
+      <a name="label" val="display"/>
+      <a name="output" val="true"/>
+      <a name="radix" val="16"/>
+      <a name="width" val="8"/>
+    </comp>
+    <comp lib="0" loc="(650,210)" name="Splitter">
+      <a name="appear" val="center"/>
+      <a name="bit0" val="7"/>
+      <a name="bit1" val="6"/>
+      <a name="bit2" val="5"/>
+      <a name="bit3" val="4"/>
+      <a name="bit4" val="3"/>
+      <a name="bit5" val="2"/>
+      <a name="bit6" val="1"/>
+      <a name="bit7" val="0"/>
+      <a name="fanout" val="8"/>
+      <a name="incoming" val="8"/>
+      <a name="spacing" val="2"/>
+    </comp>
+    <comp lib="0" loc="(740,130)" name="Tunnel">
+      <a name="label" val="a"/>
+    </comp>
+    <comp lib="0" loc="(740,150)" name="Tunnel">
+      <a name="label" val="b"/>
+    </comp>
+    <comp lib="0" loc="(740,170)" name="Tunnel">
+      <a name="label" val="c"/>
+    </comp>
+    <comp lib="0" loc="(740,190)" name="Tunnel">
+      <a name="label" val="d"/>
+    </comp>
+    <comp lib="0" loc="(740,210)" name="Tunnel">
+      <a name="label" val="e"/>
+    </comp>
+    <comp lib="0" loc="(740,230)" name="Tunnel">
+      <a name="label" val="f"/>
+    </comp>
+    <comp lib="0" loc="(740,250)" name="Tunnel">
+      <a name="label" val="g"/>
+    </comp>
+    <comp lib="0" loc="(740,270)" name="Tunnel">
+      <a name="label" val="dp"/>
+    </comp>
+    <comp lib="0" loc="(90,180)" name="Pin">
+      <a name="appearance" val="classic"/>
+      <a name="label" val="dat"/>
+      <a name="width" val="3"/>
+    </comp>
+    <comp lib="0" loc="(900,280)" name="Tunnel">
+      <a name="facing" val="north"/>
+      <a name="label" val="e"/>
+    </comp>
+    <comp lib="0" loc="(900,80)" name="Tunnel">
+      <a name="facing" val="south"/>
+      <a name="label" val="g"/>
+    </comp>
+    <comp lib="0" loc="(910,120)" name="Tunnel">
+      <a name="facing" val="south"/>
+      <a name="label" val="f"/>
+    </comp>
+    <comp lib="0" loc="(910,320)" name="Tunnel">
+      <a name="facing" val="north"/>
+      <a name="label" val="d"/>
+    </comp>
+    <comp lib="0" loc="(920,280)" name="Tunnel">
+      <a name="facing" val="north"/>
+      <a name="label" val="c"/>
+    </comp>
+    <comp lib="0" loc="(920,80)" name="Tunnel">
+      <a name="facing" val="south"/>
+      <a name="label" val="a"/>
+    </comp>
+    <comp lib="0" loc="(930,120)" name="Tunnel">
+      <a name="facing" val="south"/>
+      <a name="label" val="b"/>
+    </comp>
+    <comp lib="0" loc="(930,350)" name="Tunnel">
+      <a name="facing" val="north"/>
+      <a name="label" val="dp"/>
+    </comp>
+    <comp lib="2" loc="(520,210)" name="Multiplexer">
+      <a name="width" val="8"/>
+    </comp>
+    <comp lib="4" loc="(250,170)" name="ROM">
+      <a name="addrWidth" val="3"/>
+      <a name="appearance" val="classic"/>
+      <a name="contents">addr/data: 3 8
+fa 3e 1a 7a 8e f6
+</a>
+      <a name="label" val="a_b_c_d_f_g"/>
+      <a name="labelvisible" val="true"/>
+    </comp>
+    <comp lib="5" loc="(900,170)" name="7-Segment Display">
+      <a name="label" val="seven_segment"/>
+    </comp>
+    <wire from="(390,140)" to="(460,140)"/>
+    <wire from="(420,220)" to="(420,230)"/>
+    <wire from="(420,220)" to="(490,220)"/>
+    <wire from="(420,230)" to="(490,230)"/>
+    <wire from="(420,320)" to="(500,320)"/>
+    <wire from="(460,140)" to="(460,200)"/>
+    <wire from="(460,200)" to="(490,200)"/>
+    <wire from="(500,230)" to="(500,320)"/>
+    <wire from="(520,210)" to="(600,210)"/>
+    <wire from="(600,110)" to="(600,210)"/>
+    <wire from="(600,210)" to="(650,210)"/>
+    <wire from="(670,130)" to="(740,130)"/>
+    <wire from="(670,150)" to="(740,150)"/>
+    <wire from="(670,170)" to="(740,170)"/>
+    <wire from="(670,190)" to="(740,190)"/>
+    <wire from="(670,210)" to="(740,210)"/>
+    <wire from="(670,230)" to="(740,230)"/>
+    <wire from="(670,250)" to="(740,250)"/>
+    <wire from="(670,270)" to="(740,270)"/>
+    <wire from="(90,180)" to="(250,180)"/>
+    <wire from="(900,230)" to="(900,280)"/>
+    <wire from="(900,80)" to="(900,170)"/>
+    <wire from="(910,120)" to="(910,170)"/>
+    <wire from="(910,230)" to="(910,320)"/>
+    <wire from="(920,230)" to="(920,280)"/>
+    <wire from="(920,80)" to="(920,170)"/>
+    <wire from="(930,120)" to="(930,170)"/>
+    <wire from="(930,230)" to="(930,350)"/>
+  </circuit>
+  <circuit name="Q4_vote25">
+    <a name="appearance" val="logisim_evolution"/>
+    <a name="circuit" val="Q4_vote25"/>
+    <a name="circuitnamedboxfixedsize" val="true"/>
+    <comp lib="0" loc="(340,90)" name="Probe">
+      <a name="appearance" val="NewPins"/>
+      <a name="label" val="ones_count"/>
+      <a name="radix" val="10unsigned"/>
+    </comp>
+    <comp lib="0" loc="(370,240)" name="Constant">
+      <a name="value" val="0xd"/>
+      <a name="width" val="5"/>
+    </comp>
+    <comp lib="0" loc="(780,160)" name="Pin">
+      <a name="appearance" val="classic"/>
+      <a name="facing" val="west"/>
+      <a name="label" val="result"/>
+      <a name="output" val="true"/>
+    </comp>
+    <comp lib="0" loc="(80,160)" name="Pin">
+      <a name="appearance" val="classic"/>
+      <a name="label" val="vt"/>
+      <a name="radix" val="16"/>
+      <a name="width" val="25"/>
+    </comp>
+    <comp lib="1" loc="(680,160)" name="OR Gate"/>
+    <comp lib="3" loc="(290,160)" name="BitAdder">
+      <a name="width" val="25"/>
+    </comp>
+    <comp lib="3" loc="(500,160)" name="Comparator">
+      <a name="mode" val="unsigned"/>
+      <a name="width" val="5"/>
+    </comp>
+    <wire from="(290,160)" to="(340,160)"/>
+    <wire from="(340,160)" to="(370,160)"/>
+    <wire from="(340,90)" to="(340,160)"/>
+    <wire from="(370,150)" to="(370,160)"/>
+    <wire from="(370,150)" to="(460,150)"/>
+    <wire from="(370,240)" to="(430,240)"/>
+    <wire from="(430,170)" to="(430,240)"/>
+    <wire from="(430,170)" to="(460,170)"/>
+    <wire from="(500,150)" to="(550,150)"/>
+    <wire from="(500,160)" to="(580,160)"/>
+    <wire from="(550,140)" to="(550,150)"/>
+    <wire from="(550,140)" to="(630,140)"/>
+    <wire from="(580,160)" to="(580,180)"/>
+    <wire from="(580,180)" to="(630,180)"/>
+    <wire from="(680,160)" to="(780,160)"/>
+    <wire from="(80,160)" to="(250,160)"/>
+  </circuit>
+  <circuit name="Q5_popcount13_7seg">
+    <a name="appearance" val="logisim_evolution"/>
+    <a name="circuit" val="Q5_popcount13_7seg"/>
+    <a name="circuitnamedboxfixedsize" val="true"/>
+    <comp lib="0" loc="(1050,280)" name="Tunnel">
+      <a name="facing" val="north"/>
+      <a name="label" val="e"/>
+    </comp>
+    <comp lib="0" loc="(1050,80)" name="Tunnel">
+      <a name="facing" val="south"/>
+      <a name="label" val="g"/>
+    </comp>
+    <comp lib="0" loc="(1060,120)" name="Tunnel">
+      <a name="facing" val="south"/>
+      <a name="label" val="f"/>
+    </comp>
+    <comp lib="0" loc="(1060,320)" name="Tunnel">
+      <a name="facing" val="north"/>
+      <a name="label" val="d"/>
+    </comp>
+    <comp lib="0" loc="(1070,280)" name="Tunnel">
+      <a name="facing" val="north"/>
+      <a name="label" val="c"/>
+    </comp>
+    <comp lib="0" loc="(1070,80)" name="Tunnel">
+      <a name="facing" val="south"/>
+      <a name="label" val="a"/>
+    </comp>
+    <comp lib="0" loc="(1080,120)" name="Tunnel">
+      <a name="facing" val="south"/>
+      <a name="label" val="b"/>
+    </comp>
+    <comp lib="0" loc="(1080,350)" name="Tunnel">
+      <a name="facing" val="north"/>
+      <a name="label" val="dp"/>
+    </comp>
+    <comp lib="0" loc="(280,80)" name="Probe">
+      <a name="appearance" val="NewPins"/>
+      <a name="label" val="ones_count"/>
+      <a name="radix" val="10unsigned"/>
+    </comp>
+    <comp lib="0" loc="(520,140)" name="Constant">
+      <a name="value" val="0x0"/>
+      <a name="width" val="8"/>
+    </comp>
+    <comp lib="0" loc="(550,320)" name="Pin">
+      <a name="appearance" val="classic"/>
+      <a name="label" val="en"/>
+    </comp>
+    <comp lib="0" loc="(70,170)" name="Pin">
+      <a name="appearance" val="classic"/>
+      <a name="label" val="vt"/>
+      <a name="radix" val="16"/>
+      <a name="width" val="13"/>
+    </comp>
+    <comp lib="0" loc="(750,110)" name="Pin">
+      <a name="appearance" val="classic"/>
+      <a name="facing" val="west"/>
+      <a name="label" val="display"/>
+      <a name="output" val="true"/>
+      <a name="radix" val="16"/>
+      <a name="width" val="8"/>
+    </comp>
+    <comp lib="0" loc="(800,210)" name="Splitter">
+      <a name="appear" val="center"/>
+      <a name="bit0" val="7"/>
+      <a name="bit1" val="6"/>
+      <a name="bit2" val="5"/>
+      <a name="bit3" val="4"/>
+      <a name="bit4" val="3"/>
+      <a name="bit5" val="2"/>
+      <a name="bit6" val="1"/>
+      <a name="bit7" val="0"/>
+      <a name="fanout" val="8"/>
+      <a name="incoming" val="8"/>
+      <a name="spacing" val="2"/>
+    </comp>
+    <comp lib="0" loc="(890,130)" name="Tunnel">
+      <a name="label" val="a"/>
+    </comp>
+    <comp lib="0" loc="(890,150)" name="Tunnel">
+      <a name="label" val="b"/>
+    </comp>
+    <comp lib="0" loc="(890,170)" name="Tunnel">
+      <a name="label" val="c"/>
+    </comp>
+    <comp lib="0" loc="(890,190)" name="Tunnel">
+      <a name="label" val="d"/>
+    </comp>
+    <comp lib="0" loc="(890,210)" name="Tunnel">
+      <a name="label" val="e"/>
+    </comp>
+    <comp lib="0" loc="(890,230)" name="Tunnel">
+      <a name="label" val="f"/>
+    </comp>
+    <comp lib="0" loc="(890,250)" name="Tunnel">
+      <a name="label" val="g"/>
+    </comp>
+    <comp lib="0" loc="(890,270)" name="Tunnel">
+      <a name="label" val="dp"/>
+    </comp>
+    <comp lib="2" loc="(650,210)" name="Multiplexer">
+      <a name="width" val="8"/>
+    </comp>
+    <comp lib="3" loc="(240,170)" name="BitAdder">
+      <a name="width" val="13"/>
+    </comp>
+    <comp lib="4" loc="(340,160)" name="ROM">
+      <a name="addrWidth" val="4"/>
+      <a name="appearance" val="classic"/>
+      <a name="contents">addr/data: 4 8
+fc 60 da f2 66 b6 be e0
+fe f6 ee 3e 9c 7a 9e 8e
+</a>
+      <a name="label" val="hex_0_to_F"/>
+      <a name="labelvisible" val="true"/>
+    </comp>
+    <comp lib="5" loc="(1050,170)" name="7-Segment Display">
+      <a name="label" val="seven_segment"/>
+    </comp>
+    <wire from="(1050,230)" to="(1050,280)"/>
+    <wire from="(1050,80)" to="(1050,170)"/>
+    <wire from="(1060,120)" to="(1060,170)"/>
+    <wire from="(1060,230)" to="(1060,320)"/>
+    <wire from="(1070,230)" to="(1070,280)"/>
+    <wire from="(1070,80)" to="(1070,170)"/>
+    <wire from="(1080,120)" to="(1080,170)"/>
+    <wire from="(1080,230)" to="(1080,350)"/>
+    <wire from="(240,170)" to="(280,170)"/>
+    <wire from="(280,170)" to="(340,170)"/>
+    <wire from="(280,80)" to="(280,170)"/>
+    <wire from="(520,140)" to="(590,140)"/>
+    <wire from="(550,220)" to="(580,220)"/>
+    <wire from="(550,320)" to="(630,320)"/>
+    <wire from="(580,220)" to="(620,220)"/>
+    <wire from="(590,140)" to="(590,200)"/>
+    <wire from="(590,200)" to="(620,200)"/>
+    <wire from="(630,230)" to="(630,320)"/>
+    <wire from="(650,210)" to="(750,210)"/>
+    <wire from="(70,170)" to="(200,170)"/>
+    <wire from="(750,110)" to="(750,210)"/>
+    <wire from="(750,210)" to="(800,210)"/>
+    <wire from="(820,130)" to="(890,130)"/>
+    <wire from="(820,150)" to="(890,150)"/>
+    <wire from="(820,170)" to="(890,170)"/>
+    <wire from="(820,190)" to="(890,190)"/>
+    <wire from="(820,210)" to="(890,210)"/>
+    <wire from="(820,230)" to="(890,230)"/>
+    <wire from="(820,250)" to="(890,250)"/>
+    <wire from="(820,270)" to="(890,270)"/>
+  </circuit>
+  <circuit name="HDL_Q1">
+    <a name="appearance" val="logisim_evolution"/>
+    <a name="circuit" val="HDL_Q1"/>
+    <a name="circuitnamedboxfixedsize" val="true"/>
+    <comp lib="0" loc="(160,200)" name="Pin">
+      <a name="appearance" val="classic"/>
+      <a name="label" val="a"/>
+    </comp>
+    <comp lib="0" loc="(160,220)" name="Pin">
+      <a name="appearance" val="classic"/>
+      <a name="label" val="b"/>
+    </comp>
+    <comp lib="0" loc="(160,240)" name="Pin">
+      <a name="appearance" val="classic"/>
+      <a name="label" val="c"/>
+    </comp>
+    <comp lib="0" loc="(160,260)" name="Pin">
+      <a name="appearance" val="classic"/>
+      <a name="label" val="d"/>
+    </comp>
+    <comp lib="0" loc="(620,200)" name="Pin">
+      <a name="appearance" val="classic"/>
+      <a name="facing" val="west"/>
+      <a name="label" val="out1"/>
+      <a name="output" val="true"/>
+    </comp>
+    <comp lib="0" loc="(620,220)" name="Pin">
+      <a name="appearance" val="classic"/>
+      <a name="facing" val="west"/>
+      <a name="label" val="out2"/>
+      <a name="output" val="true"/>
+    </comp>
+    <comp loc="(500,200)" name="q1_logic4">
+      <a name="appearance" val="logisim_evolution"/>
+    </comp>
+    <wire from="(160,200)" to="(280,200)"/>
+    <wire from="(160,220)" to="(280,220)"/>
+    <wire from="(160,240)" to="(280,240)"/>
+    <wire from="(160,260)" to="(280,260)"/>
+    <wire from="(500,200)" to="(620,200)"/>
+    <wire from="(500,220)" to="(620,220)"/>
+  </circuit>
+  <circuit name="HDL_Q2">
+    <a name="appearance" val="logisim_evolution"/>
+    <a name="circuit" val="HDL_Q2"/>
+    <a name="circuitnamedboxfixedsize" val="true"/>
+    <comp lib="0" loc="(160,200)" name="Pin">
+      <a name="appearance" val="classic"/>
+      <a name="label" val="a"/>
+    </comp>
+    <comp lib="0" loc="(160,220)" name="Pin">
+      <a name="appearance" val="classic"/>
+      <a name="label" val="b"/>
+    </comp>
+    <comp lib="0" loc="(160,240)" name="Pin">
+      <a name="appearance" val="classic"/>
+      <a name="label" val="c"/>
+    </comp>
+    <comp lib="0" loc="(160,260)" name="Pin">
+      <a name="appearance" val="classic"/>
+      <a name="label" val="d"/>
+    </comp>
+    <comp lib="0" loc="(160,280)" name="Pin">
+      <a name="appearance" val="classic"/>
+      <a name="label" val="e"/>
+    </comp>
+    <comp lib="0" loc="(160,300)" name="Pin">
+      <a name="appearance" val="classic"/>
+      <a name="label" val="f"/>
+    </comp>
+    <comp lib="0" loc="(160,320)" name="Pin">
+      <a name="appearance" val="classic"/>
+      <a name="label" val="g"/>
+    </comp>
+    <comp lib="0" loc="(160,340)" name="Pin">
+      <a name="appearance" val="classic"/>
+      <a name="label" val="h"/>
+    </comp>
+    <comp lib="0" loc="(160,360)" name="Pin">
+      <a name="appearance" val="classic"/>
+      <a name="label" val="sel"/>
+      <a name="width" val="3"/>
+    </comp>
+    <comp lib="0" loc="(620,200)" name="Pin">
+      <a name="appearance" val="classic"/>
+      <a name="facing" val="west"/>
+      <a name="label" val="data"/>
+      <a name="output" val="true"/>
+    </comp>
+    <comp loc="(500,200)" name="q2_mux8">
+      <a name="appearance" val="logisim_evolution"/>
+    </comp>
+    <wire from="(160,200)" to="(280,200)"/>
+    <wire from="(160,220)" to="(280,220)"/>
+    <wire from="(160,240)" to="(280,240)"/>
+    <wire from="(160,260)" to="(280,260)"/>
+    <wire from="(160,280)" to="(280,280)"/>
+    <wire from="(160,300)" to="(280,300)"/>
+    <wire from="(160,320)" to="(280,320)"/>
+    <wire from="(160,340)" to="(280,340)"/>
+    <wire from="(160,360)" to="(280,360)"/>
+    <wire from="(500,200)" to="(620,200)"/>
+  </circuit>
+  <circuit name="HDL_Q3">
+    <a name="appearance" val="logisim_evolution"/>
+    <a name="circuit" val="HDL_Q3"/>
+    <a name="circuitnamedboxfixedsize" val="true"/>
+    <comp lib="0" loc="(160,200)" name="Pin">
+      <a name="appearance" val="classic"/>
+      <a name="label" val="en"/>
+    </comp>
+    <comp lib="0" loc="(160,220)" name="Pin">
+      <a name="appearance" val="classic"/>
+      <a name="label" val="dat"/>
+      <a name="width" val="3"/>
+    </comp>
+    <comp lib="0" loc="(620,200)" name="Pin">
+      <a name="appearance" val="classic"/>
+      <a name="facing" val="west"/>
+      <a name="label" val="display"/>
+      <a name="output" val="true"/>
+      <a name="radix" val="16"/>
+      <a name="width" val="8"/>
+    </comp>
+    <comp loc="(500,200)" name="q3_letters7seg">
+      <a name="appearance" val="logisim_evolution"/>
+    </comp>
+    <wire from="(160,200)" to="(280,200)"/>
+    <wire from="(160,220)" to="(280,220)"/>
+    <wire from="(500,200)" to="(620,200)"/>
+  </circuit>
+  <circuit name="HDL_Q4">
+    <a name="appearance" val="logisim_evolution"/>
+    <a name="circuit" val="HDL_Q4"/>
+    <a name="circuitnamedboxfixedsize" val="true"/>
+    <comp lib="0" loc="(160,200)" name="Pin">
+      <a name="appearance" val="classic"/>
+      <a name="label" val="vt"/>
+      <a name="radix" val="16"/>
+      <a name="width" val="25"/>
+    </comp>
+    <comp lib="0" loc="(620,200)" name="Pin">
+      <a name="appearance" val="classic"/>
+      <a name="facing" val="west"/>
+      <a name="label" val="result"/>
+      <a name="output" val="true"/>
+    </comp>
+    <comp loc="(500,200)" name="q4_vote25">
+      <a name="appearance" val="logisim_evolution"/>
+    </comp>
+    <wire from="(160,200)" to="(280,200)"/>
+    <wire from="(500,200)" to="(620,200)"/>
+  </circuit>
+  <circuit name="HDL_Q5">
+    <a name="appearance" val="logisim_evolution"/>
+    <a name="circuit" val="HDL_Q5"/>
+    <a name="circuitnamedboxfixedsize" val="true"/>
+    <comp lib="0" loc="(160,200)" name="Pin">
+      <a name="appearance" val="classic"/>
+      <a name="label" val="vt"/>
+      <a name="radix" val="16"/>
+      <a name="width" val="13"/>
+    </comp>
+    <comp lib="0" loc="(160,220)" name="Pin">
+      <a name="appearance" val="classic"/>
+      <a name="label" val="en"/>
+    </comp>
+    <comp lib="0" loc="(620,200)" name="Pin">
+      <a name="appearance" val="classic"/>
+      <a name="facing" val="west"/>
+      <a name="label" val="display"/>
+      <a name="output" val="true"/>
+      <a name="radix" val="16"/>
+      <a name="width" val="8"/>
+    </comp>
+    <comp loc="(500,200)" name="q5_popcount13_7seg">
+      <a name="appearance" val="logisim_evolution"/>
+    </comp>
+    <wire from="(160,200)" to="(280,200)"/>
+    <wire from="(160,220)" to="(280,220)"/>
+    <wire from="(500,200)" to="(620,200)"/>
+  </circuit>
+  <vhdl name="q1_logic4">-- VHDL_1, p.22, Problem 1: four-input AND and OR.
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity q1_logic4 is
+    port (
+        a, b, c, d : in std_logic;
+        out1, out2 : out std_logic
+    );
+end q1_logic4;
+
+architecture rtl of q1_logic4 is
+begin
+    out1 &lt;= a and b and c and d;
+    out2 &lt;= a or b or c or d;
+end rtl;
+</vhdl>
+  <vhdl name="q2_mux8">-- VHDL_1, p.22, Problem 2: eight-to-one multiplexer.
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity q2_mux8 is
+    port (
+        a, b, c, d, e, f, g, h : in std_logic;
+        sel : in std_logic_vector(2 downto 0);
+        data : out std_logic
+    );
+end q2_mux8;
+
+architecture rtl of q2_mux8 is
+begin
+    process(a, b, c, d, e, f, g, h, sel)
+    begin
+        case sel is
+            when "000" =&gt; data &lt;= a;
+            when "001" =&gt; data &lt;= b;
+            when "010" =&gt; data &lt;= c;
+            when "011" =&gt; data &lt;= d;
+            when "100" =&gt; data &lt;= e;
+            when "101" =&gt; data &lt;= f;
+            when "110" =&gt; data &lt;= g;
+            when "111" =&gt; data &lt;= h;
+            when others =&gt; data &lt;= '0';
+        end case;
+    end process;
+end rtl;
+</vhdl>
+  <vhdl name="q3_letters7seg">-- VHDL_1, p.22, Problem 3: display a, b, c, d, f, g.
+-- display(7 downto 0) = a b c d e f g dp; 1 lights a segment.
+-- dat: 000=a, 001=b, 010=c, 011=d, 100=f, 101=g.
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity q3_letters7seg is
+    port (
+        en : in std_logic;
+        dat : in std_logic_vector(2 downto 0);
+        display : out std_logic_vector(7 downto 0)
+    );
+end q3_letters7seg;
+
+architecture rtl of q3_letters7seg is
+begin
+    process(en, dat)
+    begin
+        display &lt;= "00000000";
+        if en = '1' then
+            case dat is
+                when "000" =&gt; display &lt;= "11111010"; -- a
+                when "001" =&gt; display &lt;= "00111110"; -- b
+                when "010" =&gt; display &lt;= "00011010"; -- c
+                when "011" =&gt; display &lt;= "01111010"; -- d
+                when "100" =&gt; display &lt;= "10001110"; -- f
+                when "101" =&gt; display &lt;= "11110110"; -- g
+                when others =&gt; display &lt;= "00000000";
+            end case;
+        end if;
+    end process;
+end rtl;
+</vhdl>
+  <vhdl name="q4_vote25">-- VHDL_1, p.22, Problem 4: strict majority of 25 votes.
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity q4_vote25 is
+    port (
+        vt : in std_logic_vector(24 downto 0);
+        result : out std_logic
+    );
+end q4_vote25;
+
+architecture rtl of q4_vote25 is
+begin
+    process(vt)
+        variable count_ones : integer range 0 to 25;
+    begin
+        count_ones := 0;
+        for i in vt'range loop
+            if vt(i) = '1' then
+                count_ones := count_ones + 1;
+            end if;
+        end loop;
+        if count_ones &gt;= 13 then
+            result &lt;= '1';
+        else
+            result &lt;= '0';
+        end if;
+    end process;
+end rtl;
+</vhdl>
+  <vhdl name="q5_popcount13_7seg">-- VHDL_1, p.22, Problem 5: 13-bit population count and display.
+-- display(7 downto 0) = a b c d e f g dp; active high.
+-- A 13-bit input reaches 0..13 (0..D). E/F remain in the decoder.
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity q5_popcount13_7seg is
+    port (
+        vt : in std_logic_vector(12 downto 0);
+        en : in std_logic;
+        display : out std_logic_vector(7 downto 0)
+    );
+end q5_popcount13_7seg;
+
+architecture rtl of q5_popcount13_7seg is
+    function hex_to_segments(value : natural) return std_logic_vector is
+    begin
+        case value is
+            when 0  =&gt; return "11111100"; -- 0
+            when 1  =&gt; return "01100000"; -- 1
+            when 2  =&gt; return "11011010"; -- 2
+            when 3  =&gt; return "11110010"; -- 3
+            when 4  =&gt; return "01100110"; -- 4
+            when 5  =&gt; return "10110110"; -- 5
+            when 6  =&gt; return "10111110"; -- 6
+            when 7  =&gt; return "11100000"; -- 7
+            when 8  =&gt; return "11111110"; -- 8
+            when 9  =&gt; return "11110110"; -- 9
+            when 10 =&gt; return "11101110"; -- A
+            when 11 =&gt; return "00111110"; -- b
+            when 12 =&gt; return "10011100"; -- C
+            when 13 =&gt; return "01111010"; -- d
+            when 14 =&gt; return "10011110"; -- E
+            when 15 =&gt; return "10001110"; -- F
+            when others =&gt; return "00000000";
+        end case;
+    end hex_to_segments;
+begin
+    process(vt, en)
+        variable count_ones : integer range 0 to 13;
+    begin
+        count_ones := 0;
+        for i in vt'range loop
+            if vt(i) = '1' then
+                count_ones := count_ones + 1;
+            end if;
+        end loop;
+        if en = '1' then
+            display &lt;= hex_to_segments(count_ones);
+        else
+            display &lt;= "00000000";
+        end if;
+    end process;
+end rtl;
+</vhdl>
+</project>
